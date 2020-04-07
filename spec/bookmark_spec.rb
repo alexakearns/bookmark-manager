@@ -17,4 +17,11 @@ describe Bookmark do
     end
   end
 
+  describe '#create' do
+    it 'adds a bookmark to the bookmarks' do
+      Bookmark.create('http://www.rockpapershotgun.com')
+      bookmarks = Bookmark.all
+      expect(bookmarks).to include('http://www.rockpapershotgun.com')
+    end
+  end
 end

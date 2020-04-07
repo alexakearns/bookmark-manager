@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/app.rb": {
+      "/Users/student/projects/bookmark-manager/app.rb": {
         "lines": [
           null,
           null,
@@ -11,41 +11,53 @@
           null,
           1,
           1,
+          3,
+          null,
+          null,
+          1,
+          2,
           2,
           null,
           null,
           1,
           1,
+          1,
           null,
           null,
           1,
-          null,
-          1,
-          1,
+          2,
           null,
           null
         ]
       },
-      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/lib/bookmark.rb": {
+      "/Users/student/projects/bookmark-manager/lib/bookmark.rb": {
         "lines": [
           null,
           1,
           null,
           1,
           1,
-          2,
-          2,
+          4,
+          4,
+          12,
+          null,
+          null,
+          1,
+          5,
+          5,
+          null,
+          null,
+          1,
+          9,
+          9,
           null,
           0,
           null,
           null,
-          2,
-          8,
-          null,
           null
         ]
       },
-      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/spec/bookmark_spec.rb": {
+      "/Users/student/projects/bookmark-manager/spec/bookmark_spec.rb": {
         "lines": [
           null,
           null,
@@ -66,10 +78,35 @@
           null,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
-      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/spec/features/view_bookmarks_spec.rb": {
+      "/Users/student/projects/bookmark-manager/spec/features/add_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/projects/bookmark-manager/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -79,6 +116,7 @@
           1,
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -93,6 +131,6 @@
         ]
       }
     },
-    "timestamp": 1586271657
+    "timestamp": 1586276311
   }
 }

@@ -21,7 +21,7 @@ This is a project to practice creating web apps that interact with databases, us
 
 > As a User  
 > So I can refer to them later  
-> I want to be able to add new bookmarks with address and title
+> I want to be able to add new bookmarks with address
 
 > As a User  
 > So that my bookmark list doesn't get cluttered  

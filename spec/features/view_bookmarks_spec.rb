@@ -7,9 +7,10 @@ feature 'Viewing bookmarks' do
   end
 
   scenario 'bookmarks page has a list of bookmarks' do
-    connection = PG.connect(dbname: 'bookmark_manager_test')
-    connection.exec("INSERT INTO bookmarks (url) VALUES('http://www.makersacademy.com'), ('http://www.destroyallsoftware.com'), ('http://www.google.com');")
-
+    Bookmark.create('http://www.google.com')
+    Bookmark.create('http://www.destroyallsoftware.com')
+    Bookmark.create('http://www.makersacademy.com')
+    
     visit('/')
     click_button 'View all'
     expect(page).to have_content 'http://www.makersacademy.com'
