@@ -1,3 +1,5 @@
+ENV['ENVIRONMENT'] = 'test'
+
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
@@ -13,6 +15,10 @@ require File.join(File.dirname(__FILE__), '..', 'app.rb')
 Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
+  config.before(:each) do
+    connection = PG.connect(dbname: 'bookmark_manager_test')
+    connection.exec("TRUNCATE bookmarks;")
+  end
   config.after(:suite) do
     puts
     puts "\e[33mAre you already great!\e[0m"

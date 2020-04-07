@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/projects/bookmark-manager/app.rb": {
+      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/app.rb": {
         "lines": [
           null,
           null,
@@ -19,52 +19,57 @@
           null,
           null,
           1,
+          null,
           1,
           1,
           null,
           null
         ]
       },
-      "/Users/student/projects/bookmark-manager/lib/bookmark.rb": {
+      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/lib/bookmark.rb": {
         "lines": [
           null,
           1,
           null,
           1,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           2,
+          2,
+          null,
+          0,
+          null,
+          null,
           2,
           8,
           null,
           null
         ]
       },
-      "/Users/student/projects/bookmark-manager/spec/bookmark_spec.rb": {
+      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/spec/bookmark_spec.rb": {
         "lines": [
           null,
           null,
           1,
           null,
           1,
+          null,
+          1,
           1,
           1,
           1,
           null,
           1,
+          null,
           1,
           1,
+          1,
+          null,
           null,
           null,
           null
         ]
       },
-      "/Users/student/projects/bookmark-manager/spec/features/view_bookmarks_spec.rb": {
+      "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           null,
           null,
@@ -75,6 +80,9 @@
           null,
           null,
           1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -85,6 +93,6 @@
         ]
       }
     },
-    "timestamp": 1586266986
+    "timestamp": 1586271657
   }
 }
