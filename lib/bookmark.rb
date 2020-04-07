@@ -5,12 +5,12 @@ class Bookmark
   def self.all
     connection = connect_to_correct_db
     result = connection.exec("SELECT * FROM bookmarks")
-    result.map { |bookmark| bookmark['url'] }
+    result.map { |bookmark| bookmark['url'] + ' ' + bookmark['title']}
   end
 
-  def self.create(url)
+  def self.create(url, title)
     connection = connect_to_correct_db
-    connection.exec("INSERT INTO bookmarks (url) VALUES('#{url}');")
+    connection.exec("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}');")
   end
 
   def self.connect_to_correct_db

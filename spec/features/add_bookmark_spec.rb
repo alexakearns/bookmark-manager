@@ -8,7 +8,8 @@ feature 'add bookmarks to the app' do
   scenario 'adding a bookmark means we can see it on the full list' do
     visit '/bookmarks/new'
     fill_in 'url', with: 'http://www.rockpapershotgun.com'
+    fill_in 'title', with: 'RockPaperShotgun'
     click_button 'Add'
-    expect(page).to have_content 'http://www.rockpapershotgun.com'
+    expect(page).to have_content 'RockPaperShotgun'
   end
 end

@@ -7,9 +7,9 @@ feature 'Viewing bookmarks' do
   end
 
   scenario 'bookmarks page has a list of bookmarks' do
-    Bookmark.create('http://www.google.com')
-    Bookmark.create('http://www.destroyallsoftware.com')
-    Bookmark.create('http://www.makersacademy.com')
+    Bookmark.create('http://www.google.com', 'Google')
+    Bookmark.create('http://www.destroyallsoftware.com', 'Destroy All Software')
+    Bookmark.create('http://www.makersacademy.com', 'Makers Academy')
     
     visit('/')
     click_button 'View all'
