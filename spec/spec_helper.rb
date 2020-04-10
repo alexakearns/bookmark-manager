@@ -1,3 +1,5 @@
+require_relative './setup_test_database'
+
 ENV['ENVIRONMENT'] = 'test'
 
 require 'capybara/rspec'
@@ -16,11 +18,9 @@ Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
   config.before(:each) do
-    connection = PG.connect(dbname: 'bookmark_manager_test')
-    connection.exec("TRUNCATE bookmarks;")
+    setup_test_database
   end
   config.after(:suite) do
-    puts
     puts "\e[33mAre you already great!\e[0m"
     puts "\e[33mI think so!\e[0m"
   end

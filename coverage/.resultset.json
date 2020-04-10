@@ -15,13 +15,13 @@
           null,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
           1,
-          1,
+          0,
           null,
           null,
           1,
@@ -37,19 +37,19 @@
           null,
           1,
           1,
-          4,
-          4,
-          12,
+          2,
+          2,
+          8,
+          null,
+          null,
+          1,
+          3,
+          3,
           null,
           null,
           1,
           5,
           5,
-          null,
-          null,
-          1,
-          9,
-          9,
           null,
           0,
           null,
@@ -81,8 +81,8 @@
           1,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null
@@ -110,6 +110,7 @@
       "/Users/alexakearns/Projects/Week_4/bookmark_manager-harry/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           null,
+          1,
           null,
           1,
           1,
@@ -132,6 +133,6 @@
         ]
       }
     },
-    "timestamp": 1586279339
+    "timestamp": 1586512492
   }
 }
